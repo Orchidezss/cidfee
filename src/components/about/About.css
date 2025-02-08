@@ -1,0 +1,69 @@
+.about {
+    min-height: 100vh;
+    background-color: #ead7bb;;
+}
+
+.about h1 {
+    font-family: Delius Swash Caps;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #1a120b;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    font-family: Cinzel Decorative;
+    border-bottom: 1px solid #1a120b;
+    padding-bottom: 1rem;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1a120b;
+}
+
+.about button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #1a120b;
+    border: none;
+    font-family: DM Sans;
+    transition: 0.25s ease;
+    border: 1px solid #fff;
+}
+
+.about button:hover {
+    background-color: #fff;
+    color: #1a120b;
+    border: 1px #1a120b solid;
+  }
+
+@media only screen and (max-width: 767px) {
+    .about-content {
+        text-align: center;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .about-content img, .about button {
+        margin: 0 auto;
+    }
+}
+

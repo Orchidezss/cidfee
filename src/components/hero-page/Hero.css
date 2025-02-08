@@ -1,0 +1,120 @@
+.hero {
+  background-color: #ead7bb;
+}
+
+.hero h2 {
+  font-family: Cinzel Decorative;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #1a120b;
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  font-family: "Delius Swash Caps";
+  font-size: 2.875rem;
+}
+
+.hero h2 span {
+  color: #8c6757;
+}
+
+.coffee-left,
+.coffee-right,
+.leave-left,
+.leave-right {
+  position: absolute;
+  height: 50vh;
+}
+
+.coffee-left {
+  top: 0;
+  left: 0;
+}
+
+.leave-left {
+  left: 0;
+  bottom: 0;
+}
+
+.leave-right {
+  right: 0;
+  top: 0;
+}
+
+.coffee-right {
+  right: 0;
+  bottom: 0;
+}
+
+.hero button {
+  background-color: #1a120b;
+  padding: 10px 20px;
+  border: none;
+  font-family: DM Sans;
+  transition: 0.25s ease;
+  border: #1a120b 1px solid;
+  margin-top: 1rem;
+}
+
+
+.hero button:last-of-type {
+    margin-left: 0.5rem;
+    background-color: transparent;
+    border: #1a120b 1px solid;
+    color: #1a120b;
+}
+
+.hero button:hover {
+    background-color: #fff;
+    color: #1a120b;
+  }
+
+
+@media only screen and (max-width: 1118px) {
+  .coffee-left,
+  .coffee-right,
+  .leave-left,
+  .leave-right {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .coffee-left,
+  .coffee-right,
+  .leave-left,
+  .leave-right {
+    height: 30vh;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .coffee-left,
+  .coffee-right,
+  .leave-left,
+  .leave-right {
+    height: 25vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}

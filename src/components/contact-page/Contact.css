@@ -1,0 +1,101 @@
+.contact {
+  background-image: url(../../assets/cafe-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.contact h1 {
+  font-family: Delius Swash Caps;
+  font-size: 3rem;
+}
+
+
+.contact .container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  column-gap: 2rem;
+  font-family: DM Sans;
+  color: #1a120b;
+  background-color: rgba(235, 216, 189, 0.842);
+  border-radius: 2px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+
+
+
+.contact-form {
+  background-color: #1a120b;
+  color: #fff;
+  padding: 2rem;
+  box-shadow: 4px 4px 4px #1a120b;
+}
+
+.form p {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.form input {
+  width: 95%;
+  background-color: #fff;
+  color: #1a120b;
+  padding: 5px 10px;
+  border: none;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  background-color: #ead7bb;
+  width: 95%;
+  padding: 10px 0;
+  color: #1a120b;
+  border: none;
+  transition: 0.25s;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+
+.contact-form button:hover {
+    background-color: #fff;
+}
+
+.contact-form h2 {
+  font-family: Cinzel Decorative;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 991px) {
+    .contact {
+        padding-top: 5vh;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+
+    .contact-left {
+      padding-top: 2rem;
+    }
+}

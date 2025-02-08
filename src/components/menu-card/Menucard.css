@@ -1,0 +1,52 @@
+.menu-card {
+    width: 207px;
+    height: 273px;
+    background-color: #ADC367;
+    border: #1A120B 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #1A120B;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    box-shadow: 4px 4px 4px #1A120B;
+}
+
+.menu-card p{
+    margin: 0;
+}
+
+.menu-card h2 {
+    font-family: Cinzel Decorative;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+
+.menu-card img {
+    height: 50%;
+}
+.menu-card button {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: #576C22;
+    padding: 5px 50px;
+    border: none;
+    font-family: DM Sans;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transition: 0.25s ease;
+}
+
+.menu-card button:hover {
+    background-color: transparent;
+    border: 1px solid #1A120B;
+    color: #1A120B;
+    scale: 1.01;
+}
+
+.menu-card button:active {
+    scale: 0.9;
+  }
